@@ -1,0 +1,120 @@
+*{
+    @font-face {
+        font-family: 'vazir';
+        src: url(C:\Users\2022\Desktop\site\fonts\fonts\webfonts\Vazirmatn-Medium.woff2) format('woff2');
+        src: url(C:\Users\2022\Desktop\site\fonts\fonts\ttf\Vazirmatn-Medium.ttf) format('ttf');
+
+    }
+    padding: 0;
+    margin: 0;
+   
+   
+}
+.container{
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+body{
+    line-height: 2rem;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.text-primary{
+    color: rgb(75, 77, 219);
+}
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+#main-nav ul{
+    display: flex;
+}
+#main-nav ul li{
+    padding: 1rem;
+}
+ul li a{
+    color: rgb(77, 132, 180);
+    border-bottom: 3px  transparent solid;
+    transition: border-color .5s;
+
+}
+ul li a:hover{
+    border-color:blue;
+}
+#header-home{
+    color: aliceblue;
+    background: linear-gradient(rgba(20,20,20,.5) ,rgba(20,20,20,.5)), url(./img/change-background-base-time-of-day.jpg) no-repeat center center/cover;
+    height: 100vh; 
+    
+}
+.header-content{
+    text-align: center;
+    line-height: 2.5rem;
+}
+.my-1{
+    font-size: 3rem;
+}
+.btn-light{
+    display: inline-block;
+    padding: .8rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+a[class ^="btn-"]:hover{
+    background-color: aqua;
+    color: black;
+}
+.items{
+    display: grid;
+    margin-top: 3rem;
+ 
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container{
+    text-align: center;
+}
+#home2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#home2 li{
+    line-height: 1.5rem;
+}
+#home-2  .item title{
+font-size: 3rem;
+}
+#home-2  div ul  .item-number{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ #home-2 .items div:nth-child(odd){
+    background-color: rgb(232, 241, 222);
+}
+#home-2 .items div:nth-child(even){
+    background-color: rgb(27, 41, 240);
+}
+#home-2{
+    text-align: center;
+}
+#home-3 .process{
+    text-align: center;
+   
+}
+#home-3{
+    display: grid;
+    grid-template-columns: repeat(4, rtl);
+}
+#home-3 .icons{
+    width: 60px;
+    height: 60px;
+}
